@@ -1,16 +1,23 @@
-# React + Vite
+# 📝 Smart React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete, responsive, and modern Todo List application built from scratch using **React.js**. This project was created to master React Hooks and professional folder structures.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **State Management:** Fully controlled using React `useState` Hook.
+- **Data Persistence:** Tasks are saved locally and automatically using `useEffect` and **LocalStorage**.
+- **Interactive Animations:** Smooth slide-out animations on deleting tasks via CSS transitions.
+- **Component-Driven Architecture:** Clean and modular code split into reusable Components (`TaskInput`, `TaskList`).
+- **Modern UI:** Clean, centered card layout with smooth active/focus effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- React.js (Vite)
+- JavaScript (ES6+)
+- Semantic HTML5 & Modern CSS3
 
-## React Compiler
+## 💻 How to Run Locally
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the local development server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*"The best way to predict the future is to create it."* 🚀
